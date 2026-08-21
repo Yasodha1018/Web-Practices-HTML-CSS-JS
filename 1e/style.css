@@ -1,0 +1,28 @@
+body {    
+    font-family: 'Segoe UI', Arial, sans-serif;    
+    background-color: #f9f9f9;    
+    padding: 40px;    
+    text-align: center; 
+} 
+h1 {    
+    color: #34495e;    
+    margin-bottom: 20px; 
+} 
+table#resultTable {    
+    margin: 0 auto;    
+    border-collapse: collapse;    
+    width: 60%;    
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+} 
+table#resultTable th, table#resultTable td {    
+    border: 1px solid #ddd;    
+    padding: 10px 14px;    
+    text-align: left; 
+} 
+table#resultTable th {    
+    background-color: #34495e;    
+    color: white; 
+} 
+table#resultTable tr:nth-child(even) {    
+    background-color: #f2f2f2; 
+}
