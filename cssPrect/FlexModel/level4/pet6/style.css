@@ -1,0 +1,37 @@
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    background-color: rgb(245, 240, 240);
+}
+li{
+    list-style-type:none;
+    display: inline;
+
+}
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(177, 24, 149);
+    
+
+}
