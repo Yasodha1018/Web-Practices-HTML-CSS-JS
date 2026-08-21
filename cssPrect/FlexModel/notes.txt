@@ -1,0 +1,44 @@
+level 4
+Flexbox(): Flexible box layout
+(it is a one - dimensional layout method for arranging items in rows or columns).
+
+there work means we creat a container linke navbar where this 
+container carry the item or element .
+so like one container is div and inside the div like 
+we added the button div order. Here flexbox is help is to arranging the element in any container or parents 
+where i set the (display: flex)
+{in Flexbox: here we get to direction there are 
+1. main axis in (H) 
+2. cross axis in (V)]
+
+flex-direction is using in container 
+
+Flexbox Direction :
+-------------------
+
+it sets how flex items are places in the flex container, along which axis and direction.
+
+- flexbox-direction: row(default)(in row in left to righ 1-n)--->
+-flexbox-direction: row-reverse(in row but in right-left side 1-n)<---
+-flexbox-direction:columns
+-flexbox-direction-columns-reverse
+
+flex properties :
+------------------
+
+for flex container
+1. justify-content: alignment along the main axies .
+flex-start/flex-end/center/space-evenly/space-between/
+2. flex-wrap: nowrap/wrapwrap-reverse
+3. align-items: alignment along the cross axis.
+4. align-content: alignment of space between & around the content along cross - axis.
+
+
+Flex properties:(for the items)
+----------------------------------
+
+1. align-self: alignment of individual along the cross axis.
+2. flex-grow: how much a flex item will grow relative to 
+the rest of the flex items if space is available.(grow equally in 1 )
+3. flex-shrink: how much a flex item will shrink relative to the rest 
+space is available.(auto shrink in equally 1 ) 
