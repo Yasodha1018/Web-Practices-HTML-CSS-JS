@@ -1,3 +1,14 @@
 media queries :
 -------------------
-help create a responsive 
+help create a responsive website
+@media(width:600px){
+    div{
+        background-color:red;
+    }
+}
+
+@media(min-width:600px){
+    div{
+        background-color:blue
+    }
+}
